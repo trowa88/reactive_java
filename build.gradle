@@ -27,4 +27,11 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+
+	// https://mvnrepository.com/artifact/org.reactivestreams/reactive-streams
+	compile group: 'org.reactivestreams', name: 'reactive-streams', version: '1.0.0'
+
+    // https://mvnrepository.com/artifact/org.reactivestreams/reactive-streams-tck
+    testCompile group: 'org.reactivestreams', name: 'reactive-streams-tck', version: '1.0.0'
+
 }
